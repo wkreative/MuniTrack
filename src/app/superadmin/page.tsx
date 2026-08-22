@@ -33,7 +33,7 @@ export default function SuperAdminPage() {
             <span>PLATAFORMA SAAS GLOBAL • SUPER ADMIN</span>
           </div>
           <h1 className="text-3xl font-extrabold font-heading text-white">
-            Consola Global de Administración SaaS MuniOne
+            Consola Global de Administración SaaS MuniTrack
           </h1>
           <p className="text-sm text-purple-200">
             Gestión centralizada de inquilinos gubernamentales, suscripciones, almacenamiento y salud de servicios.
@@ -107,7 +107,7 @@ export default function SuperAdminPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-sm text-slate-900">{muni.name}</h3>
-                    <p className="text-xs text-slate-500">Slug: {muni.slug}.munione.gov.pr</p>
+                    <p className="text-xs text-slate-500">Slug: {muni.slug}.munitrack.gov.pr</p>
                   </div>
                 </div>
 

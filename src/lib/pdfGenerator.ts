@@ -13,7 +13,7 @@ export async function generateCertificatePDF(cert: Certificate, property?: Prope
   });
 
   // Generate QR Code Data URL
-  const qrDataUrl = await QRCode.toDataURL(cert.verificationUrl || `https://munione.gov.pr/verify/${cert.id}`, {
+  const qrDataUrl = await QRCode.toDataURL(cert.verificationUrl || `https://munitrack.gov.pr/verify/${cert.id}`, {
     errorCorrectionLevel: 'H',
     margin: 1,
     width: 200,

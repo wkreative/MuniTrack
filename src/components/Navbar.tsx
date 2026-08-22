@@ -83,10 +83,7 @@ export default function Navbar() {
           <div>
             <div className="flex items-center space-x-2">
               <span className="font-extrabold text-lg tracking-tight text-slate-900 font-heading">
-                MuniOne
-              </span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 font-bold text-slate-600 border border-slate-200">
-                GovSaaS
+                MuniTrack
               </span>
             </div>
             <p className="text-xs text-slate-500 font-medium line-clamp-1">

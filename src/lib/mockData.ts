@@ -144,7 +144,7 @@ export const INITIAL_USERS: User[] = [
   {
     id: 'usr-superadmin',
     name: 'Administrador SaaS Global',
-    email: 'admin@munione.gov.pr',
+    email: 'admin@munitrack.gov.pr',
     phone: '(787) 999-0000',
     role: 'SUPERADMIN',
     municipalityId: 'muni-sanjuan',
@@ -493,7 +493,7 @@ export const INITIAL_CERTIFICATES: Certificate[] = [
     issueDate: '2026-01-22',
     expirationDate: '2027-01-22',
     qrCodeDataUrl: '',
-    verificationUrl: 'https://munione.gov.pr/verify/CERT-2026-SJ-00912',
+    verificationUrl: 'https://munitrack.gov.pr/verify/CERT-2026-SJ-00912',
     digitalSignatureHash: 'sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855',
     status: 'VALID'
   }

@@ -27,7 +27,7 @@ import {
   INITIAL_AUDIT_LOGS
 } from './mockData';
 
-const LOCAL_STORAGE_KEY = 'munione_state_v1';
+const LOCAL_STORAGE_KEY = 'munitrack_state_v1';
 
 export interface AppState {
   activeMunicipalityId: string;

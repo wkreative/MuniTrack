@@ -3,9 +3,9 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
-  title: 'MuniOne | Plataforma Municipal de Registro y Cumplimiento de Propiedades',
+  title: 'MuniTrack | Plataforma Municipal de Registro y Cumplimiento de Propiedades',
   description: 'Plataforma SaaS Multi-Tenant para la digitalización de expedientes de propiedad, trámites municipales, pagos y emisión de certificados de cumplimiento con verificación QR.',
-  keywords: 'municipios, puerto rico, registro de propiedad, catastro, crim, cumplimiento municipal, saas govtech'
+  keywords: 'municipios, puerto rico, registro de propiedad, catastro, crim, cumplimiento municipal, saas'
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
         <footer className="bg-slate-900 text-slate-400 py-8 px-4 sm:px-8 border-t border-slate-800 text-xs no-print">
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center space-x-2">
-              <span className="font-extrabold text-sm text-white font-heading">MuniOne GovSaaS</span>
+              <span className="font-extrabold text-sm text-white font-heading">MuniTrack</span>
               <span className="text-slate-600">•</span>
               <span>Infraestructura Municipal Multi-Tenant Securizada</span>
             </div>
