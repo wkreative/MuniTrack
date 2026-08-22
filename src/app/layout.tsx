@@ -20,10 +20,12 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <footer className="bg-slate-900 text-slate-400 py-8 px-4 sm:px-8 border-t border-slate-800 text-xs no-print">
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center space-x-2">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-3">
               <span className="font-extrabold text-sm text-white font-heading">MuniTrack</span>
-              <span className="text-slate-600">•</span>
+              <span className="hidden sm:inline text-slate-600">•</span>
               <span>Infraestructura Municipal Multi-Tenant Securizada</span>
+              <span className="hidden sm:inline text-slate-600">•</span>
+              <span className="text-sky-400 font-bold">Development by Group Innovatech Corp</span>
             </div>
             <div className="flex items-center space-x-6 text-slate-400">
               <a href="#" className="hover:text-white transition-colors">Términos y Privacidad</a>
