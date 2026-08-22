@@ -152,6 +152,20 @@ export default function Navbar() {
             <span>Verificar QR</span>
           </Link>
 
+          <Link
+            href="/login"
+            className="text-xs font-bold text-slate-700 hover:text-sky-700 px-2.5 py-1.5 rounded-lg transition-colors"
+          >
+            Iniciar Sesión
+          </Link>
+
+          <Link
+            href="/register"
+            className="text-xs font-bold text-white bg-sky-600 hover:bg-sky-700 px-3 py-1.5 rounded-xl transition-colors shadow-sm"
+          >
+            Registrarse
+          </Link>
+
           <div className="relative">
             <button className="p-2 rounded-lg text-slate-500 hover:bg-slate-100 transition-colors relative">
               <Bell className="w-4 h-4" />
