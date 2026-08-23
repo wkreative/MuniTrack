@@ -74,20 +74,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between">
         {/* Brand & Dynamic Municipality Logo */}
         <Link href="/" className="flex items-center space-x-3 group">
-          <div
-            className="w-10 h-10 rounded-xl flex items-center justify-center text-white shadow-md transition-transform group-hover:scale-105"
-            style={{ backgroundColor: activeMunicipality.primaryColor }}
-          >
-            <Building2 className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex items-center space-x-2">
-              <span className="font-extrabold text-lg tracking-tight text-slate-900 font-heading">
-                MuniTrack
-              </span>
-            </div>
-            <p className="text-xs text-slate-500 font-medium line-clamp-1">
+          <img
+            src="/logo.png"
+            alt="MuniTrack Logo"
+            className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
+          />
+          <div className="border-l border-slate-200 pl-3">
+            <p className="text-xs font-bold text-slate-800 line-clamp-1">
               {activeMunicipality.name}
+            </p>
+            <p className="text-[10px] text-slate-500 font-semibold tracking-wider uppercase">
+              Gobierno Municipal
             </p>
           </div>
         </Link>

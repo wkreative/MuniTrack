@@ -93,15 +93,10 @@ export default function RegisterPage() {
       <div className="max-w-lg w-full bg-white rounded-3xl border border-slate-200/80 shadow-2xl overflow-hidden space-y-6">
         {/* Header */}
         <div className="p-8 bg-slate-900 text-white text-center space-y-3 relative overflow-hidden">
-          <div className="w-12 h-12 rounded-2xl bg-sky-600 flex items-center justify-center mx-auto shadow-md">
-            <UserCheck className="w-6 h-6 text-white" />
-          </div>
-          <div>
-            <h1 className="text-2xl font-extrabold font-heading text-white">Registro de Usuario</h1>
-            <p className="text-xs text-slate-400 mt-1">
-              Cree su cuenta oficial en la Plataforma Municipal MuniTrack
-            </p>
-          </div>
+          <img src="/logo-light.png" alt="MuniTrack Logo" className="h-11 w-auto object-contain mx-auto" />
+          <p className="text-xs text-slate-400 mt-1">
+            Cree su cuenta oficial en la Plataforma Municipal MuniTrack
+          </p>
         </div>
 
         {/* Registration Form */}
